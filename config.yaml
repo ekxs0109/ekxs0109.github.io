@@ -1,7 +1,7 @@
 baseURL: "https://ekxs0109.github.io/"
 languageCode: "zh-CN"
 title: "ekxs'Blog"
-theme: 'hugo-PaperMod'
+theme: 'PaperMod'
 enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
