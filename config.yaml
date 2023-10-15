@@ -8,6 +8,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 enableEmoji: true
+Copyright: "[蜀ICP备19028772号](https://beian.miit.gov.cn/) | "
 
 #配置菜单
 menu:
