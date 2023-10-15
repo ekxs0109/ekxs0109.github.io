@@ -1,0 +1,50 @@
+baseURL: "https://ekxs0109.github.io/"
+languageCode: "zh-CN"
+title: "ekxs'Blog"
+theme: 'hugo-PaperMod'
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+
+#配置菜单
+menu:
+  main:
+    - name:  搜索
+      url: search/
+      weight: 2
+    - name: 归档
+      url: archives/
+      weight: 4
+    - name: 分类
+      url: tags/
+      weight: 3
+    - name: 首页
+      url: /
+      weight: 1
+    # - name: 关于我
+    #   url: about/
+    #   weight: 10
+
+params:
+  defaultTheme: auto
+  comments: true
+  homeInfoParams:
+        Title: "你好，人类 🤖" # optional default will be site title
+        Content: "欢迎来到我的博客，喜欢折腾各种技术和事物。\n\n在这里，我将分享我的经验和见解，与大家一起努力成长。"
+  socialIcons: # optional
+    - name: "github"
+      url: "https://github.com/ekxs0109/"
+    - name: "leetcode"
+      url: "https://leetcode.cn/u/ekxs/"
+    - name: "rss"
+      url: "/index.xml"
+    - name: "email"
+      url: "mailto:ekxs@outlook.com"
+
+outputs:
+    home:
+        - HTML
+        - RSS
