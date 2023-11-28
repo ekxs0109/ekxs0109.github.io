@@ -1,6 +1,6 @@
 baseURL: "https://ekxs0109.github.io/"
 languageCode: "zh-CN"
-title: "ekxs'Blog"
+title: "朝闻夕没"
 theme: 'PaperMod'
 enableInlineShortcodes: true
 enableRobotsTXT: true
